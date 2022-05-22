@@ -405,7 +405,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('CONTACT ME', url='https://t.me/Teamx69'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🔍 Sᴇᴀʀᴄʜ Iɴʟɪɴᴇ', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await query.message.edit_text(
