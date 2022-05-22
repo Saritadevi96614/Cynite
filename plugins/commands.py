@@ -43,7 +43,7 @@ async def start(client, message):
             InlineKeyboardButton('CONTACT ME', url='https://t.me/Teamx69'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCMzFIpsfTkZfkI-O20o1gww')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -87,7 +87,7 @@ async def start(client, message):
             InlineKeyboardButton('CONTACT ME', url='https://t.me/Teamx69'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCMzFIpsfTkZfkI-O20o1gww')
+            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
